@@ -226,7 +226,7 @@ You can deploy the production build to any static hosting service:
 
 For questions, feedback, or collaboration opportunities, please reach out via:
 
-- **Email**: miles@example.com
+- **Email**: miles.shinmachi@gmail.com
 - **LinkedIn**: [linkedin.com/in/milesshinmachi](https://linkedin.com/in/milesshinmachi)
 
 ---
