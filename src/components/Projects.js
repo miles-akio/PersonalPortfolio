@@ -66,14 +66,18 @@ const projects = [
 
 const Projects = () => {
   return (
-    <section id="projects" className="py-20 px-10 bg-black max-w-5xl mx-auto text-white">
+    <section id="projects" className="py-20 px-10 bg-black max-w-5xl mx-auto text-white font-mono">
       <h2 className="text-3xl font-semibold mb-6">Projects</h2>
       <div className="grid md:grid-cols-2 gap-8">
         {projects.map((project, index) => (
           <div key={index} className="bg-gray-800 p-6 rounded-lg flex flex-col">
             <img src={project.image} alt={project.title} className="rounded-md mb-4" />
             <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-            <p className="text-gray-400 mb-4">{project.description}</p>
+            <ul className="text-white mb-4 text-sm list-disc list-inside space-y-2">
+              {project.description.split(/(?<=\.)\s+/).map((sentence, idx) => (
+                <li key={idx}>{sentence.trim()}</li>
+              ))}
+            </ul>
             <div className="mb-4 flex flex-wrap gap-2">
               {project.links.github && (
                 <a href={project.links.github} target="_blank" rel="noopener noreferrer" className="bg-blue-600 px-3 py-1 rounded text-sm font-semibold hover:bg-blue-700">

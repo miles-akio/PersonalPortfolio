@@ -22,7 +22,7 @@ const AboutCarousel = () => {
       <img
         src={images[current]}
         alt={`Slide ${current + 1}`}
-        className="w-full h-64 object-cover rounded-lg"
+      className="w-full h-96 object-cover rounded-lg"
       />
       <button
         onClick={prevSlide}

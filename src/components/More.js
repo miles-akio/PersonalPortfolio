@@ -2,7 +2,7 @@ import React from 'react';
 
 const More = () => {
   return (
-    <section id="more" className="py-20 px-10 bg-black text-white max-w-5xl mx-auto">
+    <section id="more" className="py-20 px-10 bg-black text-white max-w-5xl mx-auto font-mono">
       <h2 className="text-3xl font-semibold mb-6">More</h2>
       <p>
         Additional information or links can be added here.

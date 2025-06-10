@@ -3,7 +3,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <section id="contact" className="py-20 px-10 bg-gray-900">
+    <section id="contact" className="py-20 px-10 bg-gray-900 font-mono">
       <h2 className="text-3xl font-semibold mb-6">Contact</h2>
       <form className="max-w-xl">
         <input
