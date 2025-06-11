@@ -5,6 +5,14 @@ const Navbar = () => {
   const [hovered, setHovered] = useState(null);
 
   const menuItems = ['About', 'Projects', 'Education', 'Experience', 'Skills', 'More'];
+  const displayNames = {
+    About: 'About',
+    Projects: 'Projects',
+    Education: 'Education',
+    Experience: 'Experience',
+    Skills: 'Skills',
+    More: 'Resume + Cover Letter',
+  };
 
   // Update active section based on scroll position
   useEffect(() => {
@@ -45,7 +53,7 @@ const Navbar = () => {
             (active === item || hovered === item) ? 'underline text-purple-400' : ''
           }`}
         >
-          {item}
+          {displayNames[item] || item}
         </a>
       ))}
     </nav>

@@ -7,7 +7,7 @@ const Header = () => {
       <div className="flex flex-col space-y-1 text-left text-base text-gray-400">
         <p>Software Engineer + A.I. Focus</p>
         <p className="text-gray-400">Anaheim, California, United States</p>
-        <div className="space-x-10 text-purple-400">
+        <div className="space-x-10 text-purple-600">
           <a href="mailto:miles.shinmachi@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:underline">Email</a>
           <a href="tel:+6575619844" target="_blank" rel="noopener noreferrer" className="hover:underline">Phone</a>
           <a href="https://linkedin.com/in/mshinmachi/" target="_blank" rel="noopener noreferrer" className="hover:underline">LinkedIn</a>

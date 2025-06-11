@@ -15,6 +15,14 @@ const About = () => {
       <p>
         My interests extend to exploring emerging technologies such as machine learning, cloud computing, and DevOps practices. I am committed to staying at the forefront of industry trends and applying best practices to deliver high-quality software solutions.
       </p>
+            <br />
+      <p>
+        While offline, my hobbies include kickboxing, completing certifications and also creating new personal projects to add onto my resume. In addition, I enjoy spending time with my family and friends, exploring new places, and engaging in activities that challenge my creativity and problem-solving skills. I believe that a well-rounded life enhances my perspective as a developer and fuels my passion for technology.
+      </p>
+            <br />
+      <p>
+        If you made it this far, please feel free to continue reading! ~ THX :]
+      </p>
       <AboutCarousel />
     </section>
   );

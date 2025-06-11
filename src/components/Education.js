@@ -15,13 +15,16 @@ const Education = () => {
       <div className="bg-gray-900 p-6 rounded-lg flex space-x-6">
         <div className="flex flex-col items-center flex-shrink-0">
           <img src={csulbLogo} alt="CSULB Logo" className="w-20 h-20 mb-2" />
-          <span className="text-gray-400">2020 - 2024</span>
+          <span className="text-gray-400">Jun'20 - Dec '24</span>
         </div>
         <div className="flex-1">
           <h3 className="text-2xl font-semibold mb-2">California State University, Long Beach</h3>
           <div className="flex space-x-2 mb-2">
             <span className="bg-yellow-400 text-black px-3 py-1 rounded font-semibold">Bachelor's of Science in Computer Science</span>
           </div>
+          <p className="text-sm text-white mb-4">
+            I am currently a Computer Science student at California State University, Long Beach, College of Engineering. My studies focus on software development, algorithms, and emerging technologies, preparing me for a career in the tech industry.
+          </p>
           <p className="text-sm text-white mb-4 cursor-pointer underline" onClick={toggleExpanded}>
             {expanded ? 'Click Card to Show Less' : 'Click Card to Show More'}
           </p>
