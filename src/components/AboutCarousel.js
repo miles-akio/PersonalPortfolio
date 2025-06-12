@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const images = [
   '/carousel1.jpg',
@@ -16,6 +16,14 @@ const AboutCarousel = () => {
   const nextSlide = () => {
     setCurrent(current === images.length - 1 ? 0 : current + 1);
   };
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide();
+    }, 3000);
+
+    return () => clearInterval(interval);
+  }, [current]);
 
   return (
     <div className="relative max-w-4xl mx-auto mt-8">

@@ -23,7 +23,7 @@ const Education = () => {
             <span className="bg-yellow-400 text-black px-3 py-1 rounded font-semibold">Bachelor's of Science in Computer Science</span>
           </div>
           <p className="text-sm text-white mb-4">
-            I am currently a Computer Science student at California State University, Long Beach, College of Engineering. My studies focus on software development, algorithms, and emerging technologies, preparing me for a career in the tech industry.
+            I am recent Computer Science graduate at California State University, Long Beach, College of Engineering. My studies focused on software development, algorithms, and emerging technologies, preparing me for a career in the tech industry.
           </p>
           <p className="text-sm text-white mb-4 cursor-pointer underline" onClick={toggleExpanded}>
             {expanded ? 'Click Card to Show Less' : 'Click Card to Show More'}
