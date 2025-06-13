@@ -230,6 +230,12 @@ This was achieved by adding a React useEffect hook with a setInterval that calls
 
 ---
 
+## Conclusion!
+
+The site is now uploaded on Netlify! You can view it here: https://milesshinmachi.netlify.app 
+
+---
+
 ## **Contact**
 
 For questions, feedback, or collaboration opportunities, please reach out via:
