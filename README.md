@@ -19,6 +19,7 @@ Welcome to the comprehensive documentation for the **Miles Shinmachi Personal Po
 - [Deployment](#deployment)
 - [Troubleshooting](#troubleshooting)
 - [Contact](#contact)
+- [Recent Updates](#recent-updates)
 
 ---
 
@@ -222,6 +223,20 @@ You can deploy the production build to any static hosting service:
 
 ---
 
+## **Recent Updates**
+
+### Responsive Design Improvements
+
+- Updated the **Header** component to be fully responsive, stacking elements vertically on small screens and adjusting font sizes to prevent squishing.
+
+- Adjusted the **Navbar** component to ensure vertical centering of menu items within the gray background with consistent top and bottom spacing.
+
+### AboutCarousel Component Update
+
+- Enhanced the **AboutCarousel** component to include an auto-transition feature for photos, cycling every 3 seconds with manual navigation still available.
+
+---
+
 ## **Contact**
 
 For questions, feedback, or collaboration opportunities, please reach out via:
@@ -231,12 +246,3 @@ For questions, feedback, or collaboration opportunities, please reach out via:
 
 ---
 
-Thank you for exploring the Miles Shinmachi Personal Portfolio!
-
----
-
-## AboutCarousel Component Update
-
-The AboutCarousel component was enhanced to include an auto-transition feature for the photos. Previously, users could manually navigate through the images using previous and next buttons. Now, the carousel automatically transitions to the next photo every 3 seconds, providing a smoother and more dynamic user experience.
-
-This was achieved by adding a React useEffect hook with a setInterval that calls the nextSlide function every 3 seconds. The interval is cleared on component unmount to prevent memory leaks. The manual navigation buttons remain functional, allowing users to control the carousel if desired.
