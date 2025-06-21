@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.81070586.css",
+    "main.js": "/static/js/main.fe59217d.js",
+    "static/media/calcoy.png": "/static/media/calcoy.4239640557992cdc6fb1.png",
+    "static/media/Miles Shinmachi - Resume.pdf": "/static/media/Miles Shinmachi - Resume.e88147eaa90958a9b47a.pdf",
+    "static/media/tracefree.png": "/static/media/tracefree.4fc97934b360a26963a0.png",
+    "static/media/csulbsase.png": "/static/media/csulbsase.f90e530d3a78bc320b27.png",
+    "static/media/miles.jpg": "/static/media/miles.ef10f793a66a73b23b9c.jpg",
+    "static/media/cover-letter.pdf": "/static/media/cover-letter.8fa7c1059b1ce575f003.pdf",
+    "static/media/uauth.png": "/static/media/uauth.29652f06b49d3bcd07a8.png",
+    "static/media/streamsync.png": "/static/media/streamsync.050e045fe70edb126c6f.png",
+    "static/media/transcript.pdf": "/static/media/transcript.43f362f5d43b8216da69.pdf",
+    "static/media/csulb-logo.png": "/static/media/csulb-logo.ca9d785d6e100a63b53e.png",
+    "index.html": "/index.html",
+    "main.81070586.css.map": "/static/css/main.81070586.css.map",
+    "main.fe59217d.js.map": "/static/js/main.fe59217d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.81070586.css",
+    "static/js/main.fe59217d.js"
+  ]
+}
