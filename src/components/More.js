@@ -5,10 +5,10 @@ import coverLetterPDF from '../assets/cover-letter.pdf';
 
 const More = () => {
   return (
-    <section id="more" className="py-20 px-10 bg-black text-white max-w-5xl mx-auto font-mono">
+    <section id="more" className="py-20 px-4 sm:px-10 bg-black text-white max-w-5xl mx-auto font-mono">
       <h2 className="text-3xl font-semibold mb-6">Resume + Cover Letter</h2>
-      <div className="flex gap-8 justify-center">
-        <div className="relative group w-1/2 h-[80vh] cursor-pointer overflow-hidden">
+      <div className="flex flex-col sm:flex-row gap-8 justify-center">
+        <div className="relative group w-full sm:w-1/2 h-[80vh] cursor-pointer overflow-hidden">
           <iframe
             src={resumePDF}
             className="w-full h-full object-contain"
@@ -23,7 +23,7 @@ const More = () => {
           </a>
         </div>
 
-        <div className="relative group w-1/2 h-[80vh] cursor-pointer overflow-hidden">
+        <div className="relative group w-full sm:w-1/2 h-[80vh] cursor-pointer overflow-hidden">
           <iframe
             src={coverLetterPDF}
             className="w-full h-full object-contain"

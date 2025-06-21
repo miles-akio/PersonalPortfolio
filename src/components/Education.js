@@ -10,9 +10,9 @@ const Education = () => {
   };
 
   return (
-    <section id="education" className="py-20 px-10 bg-gray-800 text-white max-w-5xl mx-auto font-mono">
+    <section id="education" className="py-20 px-4 sm:px-10 bg-gray-800 text-white max-w-5xl mx-auto font-mono">
       <h2 className="text-4xl font-bold mb-6">Education</h2>
-      <div className="bg-gray-900 p-6 rounded-lg flex space-x-6">
+      <div className="bg-gray-900 p-6 rounded-lg flex flex-col sm:flex-row sm:space-x-6">
         <div className="flex flex-col items-center flex-shrink-0">
           <img src={csulbLogo} alt="CSULB Logo" className="w-20 h-20 mb-2" />
           <span className="text-gray-400">Jun'20 - Dec '24</span>

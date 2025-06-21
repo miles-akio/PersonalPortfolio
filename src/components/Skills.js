@@ -43,7 +43,7 @@ const skills = [
 
 const Skills = () => {
   return (
-    <section id="skills" className="py-20 px-10 bg-gray-900 text-white max-w-5xl mx-auto font-mono">
+    <section id="skills" className="py-20 px-4 sm:px-10 bg-gray-900 text-white max-w-5xl mx-auto font-mono">
       <h2 className="text-3xl font-semibold mb-6">Skills</h2>
       <ul className="flex flex-wrap gap-4">
         {skills.map((skill, index) => (

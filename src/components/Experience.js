@@ -13,7 +13,7 @@ const Experience = () => {
   };
 
   return (
-    <section id="experience" className="py-20 px-10 bg-gray-900 text-white max-w-5xl mx-auto font-mono">
+    <section id="experience" className="py-20 px-4 sm:px-10 bg-gray-900 text-white max-w-5xl mx-auto font-mono">
       <h2 className="text-4xl font-bold mb-6">Experience</h2>
 
       {[{
@@ -49,7 +49,7 @@ const Experience = () => {
           'Designed branded digital assets and social media visuals using Canva and Adobe tools, contributing to a 20% growth in social media followers over one semester.',
         ],
       }].map((exp, index) => (
-        <div key={index} className="bg-gray-800 p-6 rounded-lg flex space-x-6 mb-6">
+        <div key={index} className="bg-gray-800 p-6 rounded-lg flex flex-col sm:flex-row sm:space-x-6 mb-6">
           <div className="flex flex-col items-center flex-shrink-0">
             <img src={exp.logo} alt={exp.alt} className="w-20 h-20 mb-2 rounded" />
             <span className="text-gray-400">{exp.date}</span>

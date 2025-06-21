@@ -92,7 +92,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="py-20 px-10 bg-black max-w-5xl mx-auto text-white font-mono">
+    <section id="projects" className="py-20 px-4 sm:px-10 bg-black max-w-5xl mx-auto text-white font-mono">
       <h2 className="text-3xl font-semibold mb-6">Projects</h2>
       <div className="grid md:grid-cols-2 gap-8">
         {projects.map((project, index) => {
@@ -100,7 +100,7 @@ const Projects = () => {
 
           return (
             <div key={index} className="bg-gray-800 p-6 rounded-lg flex flex-col">
-              <img src={project.image} alt={project.title} className="rounded-md mb-4 h-52 object-cover ml-0" />
+              <img src={project.image} alt={project.title} className="rounded-md mb-4 h-40 sm:h-52 object-cover ml-0" />
               <div className="mb-4 flex items-center justify-between">
                 <h3 className="text-xl font-semibold">{project.title}</h3>
                 {project.links.github && (

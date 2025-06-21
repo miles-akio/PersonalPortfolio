@@ -222,26 +222,12 @@ You can deploy the production build to any static hosting service:
 
 ---
 
-## AboutCarousel Component Update
-
-The AboutCarousel component was enhanced to include an auto-transition feature for the photos. Previously, users could manually navigate through the images using previous and next buttons. Now, the carousel automatically transitions to the next photo every 3 seconds, providing a smoother and more dynamic user experience.
-
-This was achieved by adding a React useEffect hook with a setInterval that calls the nextSlide function every 3 seconds. The interval is cleared on component unmount to prevent memory leaks. The manual navigation buttons remain functional, allowing users to control the carousel if desired.
-
----
-
-## Conclusion!
-
-The site is now uploaded on Netlify! You can view it here: https://milesshinmachi.netlify.app 
-
----
-
 ## **Contact**
 
 For questions, feedback, or collaboration opportunities, please reach out via:
 
 - **Email**: miles@example.com
-- **LinkedIn**: [linkedin.com/in/mshinmachi](https://linkedin.com/in/mshinmachi)
+- **LinkedIn**: [linkedin.com/in/milesshinmachi](https://linkedin.com/in/milesshinmachi)
 
 ---
 
@@ -249,4 +235,8 @@ Thank you for exploring the Miles Shinmachi Personal Portfolio!
 
 ---
 
+## AboutCarousel Component Update
 
+The AboutCarousel component was enhanced to include an auto-transition feature for the photos. Previously, users could manually navigate through the images using previous and next buttons. Now, the carousel automatically transitions to the next photo every 3 seconds, providing a smoother and more dynamic user experience.
+
+This was achieved by adding a React useEffect hook with a setInterval that calls the nextSlide function every 3 seconds. The interval is cleared on component unmount to prevent memory leaks. The manual navigation buttons remain functional, allowing users to control the carousel if desired.
